@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1-2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    
+
+</head>
+<body onload="changeTextOnHover()">
+    <!--Header-->
+    <header>
+        <h1 class="main-header" ><a href="index.html">Creative Hub</a></h1>
+    </header>
+
+    <!--Main body-->
+    <div class="main-div">
+        <!--Section-->
+        <div class="div-description">
+            <section class="section-home">
+                <h2>Home:</h2>
+                <p>Our home page is the heart of our digital space. It's the starting point of your journey, providing a warm welcome and guiding you through the diverse offerings we have in store. From the latest updates to exciting announcements, the Home page is where our story begins.</p>
+            </section>
+        
+            <section class="section-portfolio">
+                <h2>Portfolio:</h2>
+                <p>Dive into our Portfolio section to witness a showcase of our proudest achievements. Immerse yourself in a visual feast of projects, designs, and creations that reflect our passion for creativity. Each entry tells a unique story, encapsulating the dedication and craftsmanship that defines our work.</p>
+            </section>
+        
+            <section class="section-something-random">
+                <h2>Something Random:</h2>
+                <p>Embark on an unpredictable adventure with our "Something Random" page. Here, we embrace the unexpected and invite you to join us on a whimsical journey. From quirky insights to delightful surprises, this page is a testament to our love for spontaneity. Who knows what you might discover?</p>
+            </section>
+        </div>
+
+        <!--Aside-->
+        <div class="div-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="random.html">Something Random</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-copyright">
+            <p>&copy; 2024 Creative Hub. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        initializeText();
+        attachEventListeners();
+    });
+    </script>
+</body>
+</html>
