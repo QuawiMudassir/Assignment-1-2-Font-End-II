@@ -11,7 +11,15 @@ h1{
     margin: 0%;
 }
 
-.header-para{
+.header-para-home{
+    text-align: center;
+}
+
+.header-para-portfolio{
+    padding-left: 12%;
+}
+
+.header-para-random{
     text-align: center;
 }
 
@@ -76,7 +84,8 @@ th, td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #000814;
+    color: #e5e5e5;
 }
 
 .images-grid {
