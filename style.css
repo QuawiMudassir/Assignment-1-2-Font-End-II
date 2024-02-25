@@ -116,3 +116,21 @@ iframe{
     width: 100%;
     height: 50%;
 }
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 6em; 
+    }
+}
+
+.header-para-home {
+    text-align: center;
+}
+
+.header-para-portfolio {
+    padding-left: 12%;
+}
+
+.header-para-random {
+    text-align: center;
+}
